@@ -32,64 +32,64 @@
     <div class="row mt-5">
       <div class='oefening1'>
         <!-- Hier mag je HTML code toevoegen -->
-      
-      <div class="col">
-        <form method="dialog" action="#" name="myform" class="row g-3" onsubmit="return validateForm()">
-          <div class="col-md-6">
-            <label for="FirstName" class="form-label">First name</label>
-            <input name="FirstName" type="text" class="form-control" id="FirstName" placeholder="First name">
-          </div>
-          <div class="col-md-6">
-            <label for="Name" class="form-label">Name</label>
-            <input name="Name" type="text" class="form-control" id="Name" placeholder="Name">
-          </div>
-          <div class="col-12">
-            <label for="email" class="form-label">Email</label>
-            <input name="Email" type="text" class="form-control" id="email" placeholder="you@example.com">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input name="Address" type="text" class="form-control" id="inputAddress" placeholder="Adress">
-          </div>
-          <div class="col-md-5">
-            <label for="inputcountry" class="form-label">Country</label>
-            <select name="Country" id="inputcountry" class="form-select">
-              <option selected>Choose a country</option>
-              <option>belgie</option>
-              <option>frankrijk</option>
-              <option>Spanje</option>
-              <option>duitsland</option>
+        <div class="row">
+          <div class="col">
+            <form method="dialog" action="#" name="myform" class="row g-3" onsubmit="validateForm()">
+              <div class="col-md-6">
+                <label for="FirstName" class="form-label">First name</label>
+                <input name="FirstName" type="text" class="form-control" id="FirstName" placeholder="First name">
+              </div>
+              <div class="col-md-6">
+                <label for="Name" class="form-label">Name</label>
+                <input name="Name" type="text" class="form-control" id="Name" placeholder="Name">
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input name="Email" type="text" class="form-control" id="email" placeholder="you@example.com">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input name="Address" type="text" class="form-control" id="inputAddress" placeholder="Adress">
+              </div>
+              <div class="col-md-5">
+                <label for="inputcountry" class="form-label">Country</label>
+                <select name="Country" id="inputcountry" class="form-select">
+                  <option selected>Choose a country</option>
+                  <option>belgie</option>
+                  <option>frankrijk</option>
+                  <option>Spanje</option>
+                  <option>duitsland</option>
 
-            </select>
+                </select>
+              </div>
+              <div class="col-md-5">
+                <label for="inputState" class="form-label">Province</label>
+                <select name="Provintie" id="inputState" class="form-select">
+                  <option selected>Choose a province</option>
+                  <option>antwerpen</option>
+                  <option>henegouwen</option>
+                  <option>luik</option>
+                  <option>namen</option>
+                  <option>vlaams brabant</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputPostcode" class="form-label">Postcode</label>
+                <input name="Postcode" type="number" class="form-control" id="inputPostcode">
+              </div>
+              <div class="col-12">
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Send me!</button>
+              </div>
+            </form>
           </div>
-          <div class="col-md-5">
-            <label for="inputState" class="form-label">Province</label>
-            <select name="Provintie" id="inputState" class="form-select">
-              <option selected>Choose a province</option>
-              <option>antwerpen</option>
-              <option>henegouwen</option>
-              <option>luik</option>
-              <option>namen</option>
-              <option>vlaams brabant</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputPostcode" class="form-label">Postcode</label>
-            <input name="Postcode" type="number" class="form-control" id="inputPostcode">
-          </div>
-          <div class="col-12">
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Send me!</button>
-          </div>
-        </form>
 
-      </div>
-      <div id="meldingcontainer" class="">
-        <h4 id="meldingheader"></h4>
-        <div id="melding" class="">
-
-        </div>
+          <div id="meldingcontainer" class="">
+            <h4 id="meldingheader"></h4>
+            <div id="melding" class="">
+            </div>
+          </div>
         </div>
         <!-- Tot en met hier -->
       </div>

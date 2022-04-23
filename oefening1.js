@@ -20,7 +20,7 @@ function validateForm() {
     if(alerttxt != "") {
     
      
-     container.classList.add("alert","alert-danger","col-md-3","container-fluid");
+     container.classList.add("alert","alert-danger","col-md-3",);
      element.innerText = alerttxt;
      h4.innerText = "You messed up...";
 
@@ -31,14 +31,14 @@ function validateForm() {
       
       if(alerttxt != "") {
 
-        container.classList.add("alert","alert-danger","col-md-3","container-fluid");
+        container.classList.add("alert","alert-danger","col-md-3");
         element.innerText = alerttxt;
         h4.innerText = "You messed up...";
         
         }
         else{
-          container.classList.remove("alert","alert-danger","col-md-3","container-fluid");
-          container.classList.add("alert","alert-success","col-md-3","container-fluid");
+          container.classList.remove("alert","alert-danger","col-md-3");
+          container.classList.add("alert","alert-success","col-md-3");
           element.innerText = "You successfully subscribed";
           h4.innerText = "Goodshit";
         }
